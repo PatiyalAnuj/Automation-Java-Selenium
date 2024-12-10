@@ -5,6 +5,16 @@
     1. [Selenium Grid](#selenium-grid)
     1. [Selenium Server](#selenium-server)
     1. [Selenium Manager](#selenium-manager)
+1. [WebDriver Terminology](#terminology)
+1. [WebDriver in Selenium](#webdriver-in-selenium)
+1. [Key Features of WebDriver](#key-features-of-webdriver)
+1. [Basic Components of WebDriver](#basic-components-of-webdriver)
+1. [Common Methods in WebDriver](#common-methods-in-webdriver)
+1. [Common Locators in By Class](#common-locators-in-by-class)
+1. [Common WebDriver Exceptions](#common-webdriver-exceptions)
+1. [Best Practices for Using WebDriver](#best-practices-for-using-webdriver)
+
+
 
 # Automation-Java-Selenium
 Web Automation using java and selenium
