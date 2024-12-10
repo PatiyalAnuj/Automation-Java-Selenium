@@ -95,33 +95,35 @@ Selenium WebDriver refers to both the language bindings and the implementations 
 > WebDriver supports multiple programming languages, browsers, and operating systems, making it one of the most versatile tools for browser automation.
 
 ## Key Features of WebDriver
-1. **Cross-Browser Support:**
-    - Works with popular browsers like Chrome, Firefox, Edge, Safari, and more.
-1. **Multi-Language Support:**
-    - APIs available for languages such as Java, Python, C#, Ruby, JavaScript, etc.
-1. **Headless Execution:**
-    - Supports running browsers in headless mode (without a graphical interface) for faster test execution.
-1. **Synchronization:**
-    - Provides explicit and implicit waits for handling dynamic web elements.
-1. **Parallel Execution:**
-- Can be used with Selenium Grid for running tests concurrently on multiple browsers and machines.
-1. **Direct Communication with the Browser:**
-- Unlike Selenium RC, WebDriver communicates directly with the browser using browser-specific drivers (e.g., ChromeDriver, GeckoDriver).
+- **Cross-Browser Support:**
+    Works with popular browsers like Chrome, Firefox, Edge, Safari, and more.
+-  **Multi-Language Support:**
+    APIs available for languages such as Java, Python, C#, Ruby, JavaScript, etc.
+-  **Headless Execution:**
+    Supports running browsers in headless mode (without a graphical interface) for faster test execution.
+-  **Synchronization:**
+    Provides explicit and implicit waits for handling dynamic web elements.
+-  **Parallel Execution:**
+    Can be used with Selenium Grid for running tests concurrently on multiple browsers and machines.
+-  **Direct Communication with the Browser:**
+    Unlike Selenium RC, WebDriver communicates directly with the browser using browser-specific drivers (e.g., ChromeDriver, GeckoDriver).
 
 ## Basic Components of WebDriver
-1. WebDriver Interface:
-- The main interface that represents a browser session and provides methods for browser interactions.
-1. Browser Drivers:
-- Browser-specific executables that facilitate communication between WebDriver and the browser.
+-  WebDriver Interface:
+    The main interface that represents a browser session and provides methods for browser interactions.
+- Browser Drivers:
+    Browser-specific executables that facilitate communication between WebDriver and the browser.
+
 `Examples:`
     - ChromeDriver for Google Chrome
     - GeckoDriver for Mozilla Firefox
     - EdgeDriver for Microsoft Edge
     vSafariDriver for Apple Safari
-1. WebElements:
-- Elements on a webpage (e.g., buttons, links, input fields) that WebDriver can interact with.
-1. By Class:
-- Used to locate elements on a webpage using different strategies (e.g., id, name, xpath, cssSelector).
+
+- WebElements:
+    Elements on a webpage (e.g., buttons, links, input fields) that WebDriver can interact with.
+- By Class:
+    Used to locate elements on a webpage using different strategies (e.g., id, name, xpath, cssSelector).
 
 
 ## Common Methods in WebDriver
