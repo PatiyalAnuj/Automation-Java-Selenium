@@ -5,14 +5,14 @@
     1. [Selenium Grid](#selenium-grid)
     1. [Selenium Server](#selenium-server)
     1. [Selenium Manager](#selenium-manager)
-1. [WebDriver Terminology](#terminology)
-1. [WebDriver in Selenium](#webdriver-in-selenium)
-1. [Key Features of WebDriver](#key-features-of-webdriver)
-1. [Basic Components of WebDriver](#basic-components-of-webdriver)
-1. [Common Methods in WebDriver](#common-methods-in-webdriver)
-1. [Common Locators in By Class](#common-locators-in-by-class)
-1. [Common WebDriver Exceptions](#common-webdriver-exceptions)
-1. [Best Practices for Using WebDriver](#best-practices-for-using-webdriver)
+1. [Selenium Basics](#webdriver-in-selenium)
+    1. [WebDriver Terminology](#terminology)
+    1. [Key Features of WebDriver](#key-features-of-webdriver)
+    1. [Basic Components of WebDriver](#basic-components-of-webdriver)
+    1. [Common Methods in WebDriver](#common-methods-in-webdriver)
+    1. [Common Locators in By Class](#common-locators-in-by-class)
+    1. [Common WebDriver Exceptions](#common-webdriver-exceptions)
+    1. [Best Practices for Using WebDriver](#best-practices-for-using-webdriver)
 
 
 
@@ -77,6 +77,14 @@ Purpose: A tool introduced in Selenium 4.6 to automatically manage browser drive
 - Automatically downloads and configures the appropriate driver based on the browser version.
 - Simplifies the setup process.
 
+## WebDriver in Selenium
+Selenium WebDriver is a core component of the Selenium suite that allows you to automate web browser interactions programmatically. It provides an object-oriented API for controlling various web browsers and simulates user actions such as clicking buttons, filling out forms, and navigating between pages.
+Selenium WebDriver refers to both the language bindings and the implementations of the individual browser controlling code. This is commonly referred to as just WebDriver.
+
+>[!TIP]
+> Selenium WebDriver is a `W3C Recommendation`.
+
+> WebDriver supports multiple programming languages, browsers, and operating systems, making it one of the most versatile tools for browser automation.
 
 ## Terminology
 - `API:` Application Programming Interface. This is the set of “commands” you use to manipulate WebDriver.
@@ -95,15 +103,6 @@ Purpose: A tool introduced in Selenium 4.6 to automatically manage browser drive
 
 > [!TIP]
 > `Hybrid-POM`(Page Object Model), `Data Driven`, `Keyword Driven`, `BDD/TDD` are some examples of Automation Frameworks.
-
-## WebDriver in Selenium
-Selenium WebDriver is a core component of the Selenium suite that allows you to automate web browser interactions programmatically. It provides an object-oriented API for controlling various web browsers and simulates user actions such as clicking buttons, filling out forms, and navigating between pages.
-Selenium WebDriver refers to both the language bindings and the implementations of the individual browser controlling code. This is commonly referred to as just WebDriver.
-
->[!TIP]
-> Selenium WebDriver is a `W3C Recommendation`.
-
-> WebDriver supports multiple programming languages, browsers, and operating systems, making it one of the most versatile tools for browser automation.
 
 ## Key Features of WebDriver
 - **Cross-Browser Support:**
