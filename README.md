@@ -1,3 +1,6 @@
+# Automation-Java-Selenium
+Web Automation using java and selenium
+
 1. [Selenium](#selenium "About selenium")
 1. [Selenium Components](#selenium-components "Selenium Components")
     1. [Selenium WebDriver](#selenium-webdriver)
@@ -15,9 +18,6 @@
     1. [Best Practices for Using WebDriver](#best-practices-for-using-webdriver)
 
 
-
-# Automation-Java-Selenium
-Web Automation using java and selenium
 
 # Selenium
 Selenium is a powerful suite of tools used for automating web browsers.
