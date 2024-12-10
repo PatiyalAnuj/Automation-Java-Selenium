@@ -47,6 +47,7 @@ Purpose: Enables distributed test execution by running tests across multiple mac
 Architecture:
 
 **Hub:** The central server where test requests are sent.
+
 **Node:** Remote machines executing the tests.
 
 ### Selenium Server
@@ -62,7 +63,7 @@ The server can be downloaded from Selenium’s official website.
 Purpose: A tool introduced in Selenium 4.6 to automatically manage browser drivers for WebDriver tests.
 
 **Features:**
-- No need to manually download and manage ChromeDriver, GeckoDriver, etc.
+- No need to manually download and manage `ChromeDriver`, `GeckoDriver`, etc.
 - Automatically downloads and configures the appropriate driver based on the browser version.
 - Simplifies the setup process.
 
@@ -96,9 +97,9 @@ Selenium WebDriver refers to both the language bindings and the implementations 
 
 ## Key Features of WebDriver
 - **Cross-Browser Support:**
-    Works with popular browsers like Chrome, Firefox, Edge, Safari, and more.
+    Works with popular browsers like `Chrome`, `Firefox`, `Edge`, `Safari`, and more.
 -  **Multi-Language Support:**
-    APIs available for languages such as Java, Python, C#, Ruby, JavaScript, etc.
+    APIs available for languages such as `Java`, `Python`, `C#`, `Ruby`, `JavaScript`, `etc`.
 -  **Headless Execution:**
     Supports running browsers in headless mode (without a graphical interface) for faster test execution.
 -  **Synchronization:**
@@ -106,7 +107,7 @@ Selenium WebDriver refers to both the language bindings and the implementations 
 -  **Parallel Execution:**
     Can be used with Selenium Grid for running tests concurrently on multiple browsers and machines.
 -  **Direct Communication with the Browser:**
-    Unlike Selenium RC, WebDriver communicates directly with the browser using browser-specific drivers (e.g., ChromeDriver, GeckoDriver).
+    Unlike Selenium RC, WebDriver communicates directly with the browser using browser-specific drivers (e.g., `ChromeDriver`, `GeckoDriver`).
 
 ## Basic Components of WebDriver
 -  WebDriver Interface:
@@ -115,10 +116,10 @@ Selenium WebDriver refers to both the language bindings and the implementations 
     Browser-specific executables that facilitate communication between WebDriver and the browser.
 
 `Examples:`
-    - ChromeDriver for Google Chrome
-    - GeckoDriver for Mozilla Firefox
-    - EdgeDriver for Microsoft Edge
-    vSafariDriver for Apple Safari
+    - `ChromeDriver` for Google Chrome
+    - `GeckoDriver` for Mozilla Firefox
+    - `EdgeDriver` for Microsoft Edge
+    - `SafariDriver` for Apple Safari
 
 - WebElements:
     Elements on a webpage (e.g., buttons, links, input fields) that WebDriver can interact with.
